@@ -990,6 +990,9 @@
   <data name="colPriority.HeaderText" xml:space="preserve">
     <value>Приоритет</value>
   </data>
+  <data name="colPriority.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <metadata name="colTitle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1043,33 +1046,6 @@
   </data>
   <data name="&gt;&gt;dgvTasks.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="txtSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>396, 0</value>
-  </data>
-  <data name="txtSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 27</value>
-  </data>
-  <data name="txtSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtSearch.Text" xml:space="preserve">
-    <value>Поиск задач...</value>
-  </data>
-  <data name="&gt;&gt;txtSearch.Name" xml:space="preserve">
-    <value>txtSearch</value>
-  </data>
-  <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
-    <value>grpTaskList</value>
-  </data>
-  <data name="&gt;&gt;txtSearch.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="grpTaskList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -1149,16 +1125,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>TaskManager – приложение для управления личными задачами</value>
   </data>
-  <data name="&gt;&gt;colStatus.Name" xml:space="preserve">
-    <value>colStatus</value>
+  <data name="&gt;&gt;colPriority.Name" xml:space="preserve">
+    <value>colPriority</value>
   </data>
-  <data name="&gt;&gt;colStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colDueDate.Name" xml:space="preserve">
-    <value>colDueDate</value>
-  </data>
-  <data name="&gt;&gt;colDueDate.Type" xml:space="preserve">
+  <data name="&gt;&gt;colPriority.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;colTitle.Name" xml:space="preserve">
@@ -1167,10 +1137,16 @@
   <data name="&gt;&gt;colTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;colPriority.Name" xml:space="preserve">
-    <value>colPriority</value>
+  <data name="&gt;&gt;colDueDate.Name" xml:space="preserve">
+    <value>colDueDate</value>
   </data>
-  <data name="&gt;&gt;colPriority.Type" xml:space="preserve">
+  <data name="&gt;&gt;colDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Name" xml:space="preserve">
+    <value>colStatus</value>
+  </data>
+  <data name="&gt;&gt;colStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

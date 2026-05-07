@@ -47,7 +47,6 @@
             this.lblNotDone = new System.Windows.Forms.Label();
             this.lblOverdue = new System.Windows.Forms.Label();
             this.grpTaskList = new System.Windows.Forms.GroupBox();
-            this.txtSearch = new System.Windows.Forms.TextBox();
             this.dgvTasks = new System.Windows.Forms.DataGridView();
             this.flpButtons = new System.Windows.Forms.FlowLayoutPanel();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -64,10 +63,10 @@
             this.dtpDueDate = new System.Windows.Forms.DateTimePicker();
             this.cmbPriority = new System.Windows.Forms.ComboBox();
             this.chkComplited = new System.Windows.Forms.CheckBox();
-            this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPriority = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlLeft.SuspendLayout();
             this.pnlMain.SuspendLayout();
             this.grpFilters.SuspendLayout();
@@ -236,17 +235,9 @@
             // 
             this.grpTaskList.Controls.Add(this.flpButtons);
             this.grpTaskList.Controls.Add(this.dgvTasks);
-            this.grpTaskList.Controls.Add(this.txtSearch);
             resources.ApplyResources(this.grpTaskList, "grpTaskList");
             this.grpTaskList.Name = "grpTaskList";
             this.grpTaskList.TabStop = false;
-            // 
-            // txtSearch
-            // 
-            resources.ApplyResources(this.txtSearch, "txtSearch");
-            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.ForeColor = System.Drawing.Color.Black;
-            this.txtSearch.Name = "txtSearch";
             // 
             // dgvTasks
             // 
@@ -381,17 +372,11 @@
             this.chkComplited.Name = "chkComplited";
             this.chkComplited.UseVisualStyleBackColor = true;
             // 
-            // colStatus
+            // colPriority
             // 
-            resources.ApplyResources(this.colStatus, "colStatus");
-            this.colStatus.Name = "colStatus";
-            this.colStatus.ReadOnly = true;
-            // 
-            // colDueDate
-            // 
-            resources.ApplyResources(this.colDueDate, "colDueDate");
-            this.colDueDate.Name = "colDueDate";
-            this.colDueDate.ReadOnly = true;
+            resources.ApplyResources(this.colPriority, "colPriority");
+            this.colPriority.Name = "colPriority";
+            this.colPriority.ReadOnly = true;
             // 
             // colTitle
             // 
@@ -399,11 +384,17 @@
             this.colTitle.Name = "colTitle";
             this.colTitle.ReadOnly = true;
             // 
-            // colPriority
+            // colDueDate
             // 
-            resources.ApplyResources(this.colPriority, "colPriority");
-            this.colPriority.Name = "colPriority";
-            this.colPriority.ReadOnly = true;
+            resources.ApplyResources(this.colDueDate, "colDueDate");
+            this.colDueDate.Name = "colDueDate";
+            this.colDueDate.ReadOnly = true;
+            // 
+            // colStatus
+            // 
+            resources.ApplyResources(this.colStatus, "colStatus");
+            this.colStatus.Name = "colStatus";
+            this.colStatus.ReadOnly = true;
             // 
             // MainForm
             // 
@@ -421,7 +412,6 @@
             this.grpStats.ResumeLayout(false);
             this.grpStats.PerformLayout();
             this.grpTaskList.ResumeLayout(false);
-            this.grpTaskList.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTasks)).EndInit();
             this.flpButtons.ResumeLayout(false);
             this.grpTaskInfo.ResumeLayout(false);
@@ -450,7 +440,6 @@
         private System.Windows.Forms.Label lblNotDone;
         private System.Windows.Forms.Label lblDone;
         private System.Windows.Forms.GroupBox grpTaskList;
-        private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.DataGridView dgvTasks;
         private System.Windows.Forms.FlowLayoutPanel flpButtons;
         private System.Windows.Forms.Button btnAdd;
