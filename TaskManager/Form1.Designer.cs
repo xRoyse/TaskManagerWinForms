@@ -35,13 +35,21 @@
             this.lblNotDone = new System.Windows.Forms.Label();
             this.lblDone = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
-            this.btnResetFilter = new System.Windows.Forms.Button();
-            this.cmbDueDate = new System.Windows.Forms.ComboBox();
-            this.btnApplyFilter = new System.Windows.Forms.Button();
-            this.chkHigh = new System.Windows.Forms.CheckBox();
             this.grpFilters = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.labelPrioritet = new System.Windows.Forms.Label();
+            this.labelStatus = new System.Windows.Forms.Label();
             this.chkMedium = new System.Windows.Forms.CheckBox();
+            this.labelDueDate = new System.Windows.Forms.Label();
             this.chkLow = new System.Windows.Forms.CheckBox();
+            this.chkHigh = new System.Windows.Forms.CheckBox();
+            this.rbNotDone = new System.Windows.Forms.RadioButton();
+            this.cmbDueDate = new System.Windows.Forms.ComboBox();
+            this.btnResetFilter = new System.Windows.Forms.Button();
+            this.rbAll = new System.Windows.Forms.RadioButton();
+            this.rbDone = new System.Windows.Forms.RadioButton();
+            this.btnApplyFilter = new System.Windows.Forms.Button();
             this.pnlMain = new System.Windows.Forms.Panel();
             this.grpTaskInfo = new System.Windows.Forms.GroupBox();
             this.chkComplited = new System.Windows.Forms.CheckBox();
@@ -57,23 +65,16 @@
             this.grpTaskList = new System.Windows.Forms.GroupBox();
             this.flpButtons = new System.Windows.Forms.FlowLayoutPanel();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.btnDelete = new System.Windows.Forms.Button();
             this.dgvTasks = new System.Windows.Forms.DataGridView();
             this.colPriority = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colDueDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.labelDueDate = new System.Windows.Forms.Label();
-            this.rbDone = new System.Windows.Forms.RadioButton();
-            this.rbAll = new System.Windows.Forms.RadioButton();
-            this.rbNotDone = new System.Windows.Forms.RadioButton();
-            this.labelStatus = new System.Windows.Forms.Label();
-            this.labelPrioritet = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pnlLeft.SuspendLayout();
             this.grpStats.SuspendLayout();
             this.grpFilters.SuspendLayout();
@@ -127,49 +128,6 @@
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btnResetFilter
-            // 
-            this.btnResetFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(65)))), ((int)(((byte)(81)))));
-            this.btnResetFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.btnResetFilter, "btnResetFilter");
-            this.btnResetFilter.ForeColor = System.Drawing.Color.White;
-            this.btnResetFilter.Name = "btnResetFilter";
-            this.btnResetFilter.UseVisualStyleBackColor = false;
-            this.btnResetFilter.Click += new System.EventHandler(this.btnResetFilter_Click);
-            // 
-            // cmbDueDate
-            // 
-            this.cmbDueDate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cmbDueDate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbDueDate.FormattingEnabled = true;
-            this.cmbDueDate.Items.AddRange(new object[] {
-            resources.GetString("cmbDueDate.Items"),
-            resources.GetString("cmbDueDate.Items1"),
-            resources.GetString("cmbDueDate.Items2"),
-            resources.GetString("cmbDueDate.Items3")});
-            resources.ApplyResources(this.cmbDueDate, "cmbDueDate");
-            this.cmbDueDate.Name = "cmbDueDate";
-            // 
-            // btnApplyFilter
-            // 
-            this.btnApplyFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(79)))), ((int)(((byte)(169)))));
-            this.btnApplyFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            resources.ApplyResources(this.btnApplyFilter, "btnApplyFilter");
-            this.btnApplyFilter.ForeColor = System.Drawing.Color.White;
-            this.btnApplyFilter.Name = "btnApplyFilter";
-            this.btnApplyFilter.UseVisualStyleBackColor = false;
-            this.btnApplyFilter.Click += new System.EventHandler(this.btnApplyFilter_Click);
-            // 
-            // chkHigh
-            // 
-            resources.ApplyResources(this.chkHigh, "chkHigh");
-            this.chkHigh.Checked = true;
-            this.chkHigh.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkHigh.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chkHigh.ForeColor = System.Drawing.Color.White;
-            this.chkHigh.Name = "chkHigh";
-            this.chkHigh.UseVisualStyleBackColor = true;
-            // 
             // grpFilters
             // 
             this.grpFilters.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(33)))), ((int)(((byte)(51)))));
@@ -193,6 +151,30 @@
             this.grpFilters.TabStop = false;
             this.grpFilters.Enter += new System.EventHandler(this.grpFilters_Enter);
             // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // labelPrioritet
+            // 
+            resources.ApplyResources(this.labelPrioritet, "labelPrioritet");
+            this.labelPrioritet.Name = "labelPrioritet";
+            // 
+            // labelStatus
+            // 
+            resources.ApplyResources(this.labelStatus, "labelStatus");
+            this.labelStatus.Name = "labelStatus";
+            // 
             // chkMedium
             // 
             resources.ApplyResources(this.chkMedium, "chkMedium");
@@ -203,6 +185,12 @@
             this.chkMedium.Name = "chkMedium";
             this.chkMedium.UseVisualStyleBackColor = true;
             // 
+            // labelDueDate
+            // 
+            resources.ApplyResources(this.labelDueDate, "labelDueDate");
+            this.labelDueDate.Name = "labelDueDate";
+            this.labelDueDate.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // chkLow
             // 
             resources.ApplyResources(this.chkLow, "chkLow");
@@ -212,6 +200,75 @@
             this.chkLow.ForeColor = System.Drawing.Color.White;
             this.chkLow.Name = "chkLow";
             this.chkLow.UseVisualStyleBackColor = true;
+            // 
+            // chkHigh
+            // 
+            resources.ApplyResources(this.chkHigh, "chkHigh");
+            this.chkHigh.Checked = true;
+            this.chkHigh.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkHigh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chkHigh.ForeColor = System.Drawing.Color.White;
+            this.chkHigh.Name = "chkHigh";
+            this.chkHigh.UseVisualStyleBackColor = true;
+            // 
+            // rbNotDone
+            // 
+            resources.ApplyResources(this.rbNotDone, "rbNotDone");
+            this.rbNotDone.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbNotDone.ForeColor = System.Drawing.Color.White;
+            this.rbNotDone.Name = "rbNotDone";
+            this.rbNotDone.UseVisualStyleBackColor = true;
+            // 
+            // cmbDueDate
+            // 
+            this.cmbDueDate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cmbDueDate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbDueDate.FormattingEnabled = true;
+            this.cmbDueDate.Items.AddRange(new object[] {
+            resources.GetString("cmbDueDate.Items"),
+            resources.GetString("cmbDueDate.Items1"),
+            resources.GetString("cmbDueDate.Items2"),
+            resources.GetString("cmbDueDate.Items3")});
+            resources.ApplyResources(this.cmbDueDate, "cmbDueDate");
+            this.cmbDueDate.Name = "cmbDueDate";
+            // 
+            // btnResetFilter
+            // 
+            this.btnResetFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(65)))), ((int)(((byte)(81)))));
+            this.btnResetFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnResetFilter, "btnResetFilter");
+            this.btnResetFilter.ForeColor = System.Drawing.Color.White;
+            this.btnResetFilter.Name = "btnResetFilter";
+            this.btnResetFilter.UseVisualStyleBackColor = false;
+            this.btnResetFilter.Click += new System.EventHandler(this.btnResetFilter_Click);
+            // 
+            // rbAll
+            // 
+            resources.ApplyResources(this.rbAll, "rbAll");
+            this.rbAll.Checked = true;
+            this.rbAll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbAll.ForeColor = System.Drawing.Color.White;
+            this.rbAll.Name = "rbAll";
+            this.rbAll.TabStop = true;
+            this.rbAll.UseVisualStyleBackColor = true;
+            // 
+            // rbDone
+            // 
+            resources.ApplyResources(this.rbDone, "rbDone");
+            this.rbDone.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rbDone.ForeColor = System.Drawing.Color.White;
+            this.rbDone.Name = "rbDone";
+            this.rbDone.UseVisualStyleBackColor = true;
+            // 
+            // btnApplyFilter
+            // 
+            this.btnApplyFilter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(79)))), ((int)(((byte)(169)))));
+            this.btnApplyFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnApplyFilter, "btnApplyFilter");
+            this.btnApplyFilter.ForeColor = System.Drawing.Color.White;
+            this.btnApplyFilter.Name = "btnApplyFilter";
+            this.btnApplyFilter.UseVisualStyleBackColor = false;
+            this.btnApplyFilter.Click += new System.EventHandler(this.btnApplyFilter_Click);
             // 
             // pnlMain
             // 
@@ -326,6 +383,12 @@
             resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
             // 
             // btnEdit
             // 
@@ -335,6 +398,11 @@
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.UseVisualStyleBackColor = false;
             // 
+            // panel2
+            // 
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
             // btnDelete
             // 
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(204)))), ((int)(((byte)(199)))));
@@ -343,6 +411,7 @@
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvTasks
             // 
@@ -356,14 +425,17 @@
             this.dgvTasks.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colPriority,
             this.colTitle,
+            this.colDescription,
             this.colDueDate,
             this.colStatus});
             resources.ApplyResources(this.dgvTasks, "dgvTasks");
             this.dgvTasks.Name = "dgvTasks";
             this.dgvTasks.ReadOnly = true;
+            this.dgvTasks.RowHeadersVisible = false;
             this.dgvTasks.RowTemplate.Height = 24;
             this.dgvTasks.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTasks.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTasks_CellContentClick);
+            this.dgvTasks.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvTasks_CellFormatting);
             // 
             // colPriority
             // 
@@ -379,6 +451,13 @@
             this.colTitle.Name = "colTitle";
             this.colTitle.ReadOnly = true;
             // 
+            // colDescription
+            // 
+            this.colDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            resources.ApplyResources(this.colDescription, "colDescription");
+            this.colDescription.Name = "colDescription";
+            this.colDescription.ReadOnly = true;
+            // 
             // colDueDate
             // 
             this.colDueDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
@@ -392,72 +471,6 @@
             resources.ApplyResources(this.colStatus, "colStatus");
             this.colStatus.Name = "colStatus";
             this.colStatus.ReadOnly = true;
-            // 
-            // labelDueDate
-            // 
-            resources.ApplyResources(this.labelDueDate, "labelDueDate");
-            this.labelDueDate.Name = "labelDueDate";
-            this.labelDueDate.Click += new System.EventHandler(this.label1_Click_1);
-            // 
-            // rbDone
-            // 
-            resources.ApplyResources(this.rbDone, "rbDone");
-            this.rbDone.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbDone.ForeColor = System.Drawing.Color.White;
-            this.rbDone.Name = "rbDone";
-            this.rbDone.UseVisualStyleBackColor = true;
-            // 
-            // rbAll
-            // 
-            resources.ApplyResources(this.rbAll, "rbAll");
-            this.rbAll.Checked = true;
-            this.rbAll.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbAll.ForeColor = System.Drawing.Color.White;
-            this.rbAll.Name = "rbAll";
-            this.rbAll.TabStop = true;
-            this.rbAll.UseVisualStyleBackColor = true;
-            // 
-            // rbNotDone
-            // 
-            resources.ApplyResources(this.rbNotDone, "rbNotDone");
-            this.rbNotDone.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbNotDone.ForeColor = System.Drawing.Color.White;
-            this.rbNotDone.Name = "rbNotDone";
-            this.rbNotDone.UseVisualStyleBackColor = true;
-            // 
-            // labelStatus
-            // 
-            resources.ApplyResources(this.labelStatus, "labelStatus");
-            this.labelStatus.Name = "labelStatus";
-            // 
-            // labelPrioritet
-            // 
-            resources.ApplyResources(this.labelPrioritet, "labelPrioritet");
-            this.labelPrioritet.Name = "labelPrioritet";
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // panel1
-            // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
-            // 
-            // panel2
-            // 
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
             // 
             // MainForm
             // 
@@ -516,10 +529,6 @@
         private System.Windows.Forms.DateTimePicker dtpDueDate;
         private System.Windows.Forms.CheckBox chkComplited;
         private System.Windows.Forms.ComboBox cmbPriority;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colPriority;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colTitle;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colDueDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
         private System.Windows.Forms.Label labelDueDate;
         private System.Windows.Forms.Label labelStatus;
         private System.Windows.Forms.RadioButton rbNotDone;
@@ -530,6 +539,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colPriority;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colTitle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDescription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDueDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
     }
 }
-

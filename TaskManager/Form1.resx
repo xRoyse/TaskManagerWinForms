@@ -117,18 +117,72 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;grpStats.Name" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 8, 9, 8</value>
+  </data>
+  <data name="pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 566</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Name" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="grpStats.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblOverdue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblOverdue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblOverdue.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 96</value>
   </data>
@@ -272,6 +326,207 @@
   </data>
   <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Name" xml:space="preserve">
+    <value>labelPrioritet</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Name" xml:space="preserve">
+    <value>chkMedium</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Name" xml:space="preserve">
+    <value>labelDueDate</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Name" xml:space="preserve">
+    <value>chkLow</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkLow.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Name" xml:space="preserve">
+    <value>chkHigh</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Name" xml:space="preserve">
+    <value>rbNotDone</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Name" xml:space="preserve">
+    <value>cmbDueDate</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Name" xml:space="preserve">
+    <value>btnResetFilter</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Name" xml:space="preserve">
+    <value>rbAll</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbAll.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Name" xml:space="preserve">
+    <value>rbDone</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbDone.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Name" xml:space="preserve">
+    <value>btnApplyFilter</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="grpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="grpFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="grpFilters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpFilters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 417</value>
+  </data>
+  <data name="grpFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpFilters.Text" xml:space="preserve">
+    <value>ФИЛЬТРЫ</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -711,68 +966,395 @@
   <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="grpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;chkComplited.Name" xml:space="preserve">
+    <value>chkComplited</value>
   </data>
-  <data name="grpFilters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 8</value>
+  <data name="&gt;&gt;chkComplited.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="grpFilters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;chkComplited.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
   </data>
-  <data name="grpFilters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="grpFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 417</value>
-  </data>
-  <data name="grpFilters.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpFilters.Text" xml:space="preserve">
-    <value>ФИЛЬТРЫ</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
-    <value>grpFilters</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="pnlLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 8, 9, 8</value>
-  </data>
-  <data name="pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 566</value>
-  </data>
-  <data name="pnlLeft.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;chkComplited.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;pnlLeft.Name" xml:space="preserve">
-    <value>pnlLeft</value>
+  <data name="&gt;&gt;cmbPriority.Name" xml:space="preserve">
+    <value>cmbPriority</value>
   </data>
-  <data name="&gt;&gt;pnlLeft.Type" xml:space="preserve">
+  <data name="&gt;&gt;cmbPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Name" xml:space="preserve">
+    <value>dtpDueDate</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
+    <value>txtTitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Name" xml:space="preserve">
+    <value>lblPriority</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Name" xml:space="preserve">
+    <value>lblDueDate</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="grpTaskInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="grpTaskInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 413</value>
+  </data>
+  <data name="grpTaskInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 145</value>
+  </data>
+  <data name="grpTaskInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="grpTaskInfo.Text" xml:space="preserve">
+    <value>ИНФОРМАЦИЯ О ЗАДАЧЕ</value>
+  </data>
+  <data name="&gt;&gt;grpTaskInfo.Name" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;grpTaskInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTaskInfo.Parent" xml:space="preserve">
+    <value>pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpTaskInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlLeft.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="flpButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="flpButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 351</value>
+  </data>
+  <data name="flpButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="flpButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 8, 9, 8</value>
+  </data>
+  <data name="flpButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 52</value>
+  </data>
+  <data name="flpButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flpButtons.Name" xml:space="preserve">
+    <value>flpButtons</value>
+  </data>
+  <data name="&gt;&gt;flpButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpButtons.Parent" xml:space="preserve">
+    <value>grpTaskList</value>
+  </data>
+  <data name="&gt;&gt;flpButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="colPriority.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colPriority.HeaderText" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="colPriority.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colPriority.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <metadata name="colTitle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colTitle.HeaderText" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="colTitle.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colTitle.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="colDescription.HeaderText" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="colDescription.Width" type="System.Int32, mscorlib">
+    <value>215</value>
+  </data>
+  <metadata name="colDueDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colDueDate.HeaderText" xml:space="preserve">
+    <value>Дата выполнения</value>
+  </data>
+  <data name="colDueDate.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colDueDate.Width" type="System.Int32, mscorlib">
+    <value>130</value>
+  </data>
+  <metadata name="colStatus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="colStatus.HeaderText" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="colStatus.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="colStatus.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dgvTasks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="dgvTasks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="dgvTasks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="dgvTasks.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvTasks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 328</value>
+  </data>
+  <data name="dgvTasks.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dgvTasks.Name" xml:space="preserve">
+    <value>dgvTasks</value>
+  </data>
+  <data name="&gt;&gt;dgvTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvTasks.Parent" xml:space="preserve">
+    <value>grpTaskList</value>
+  </data>
+  <data name="&gt;&gt;dgvTasks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpTaskList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="grpTaskList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 8</value>
+  </data>
+  <data name="grpTaskList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 405</value>
+  </data>
+  <data name="grpTaskList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpTaskList.Text" xml:space="preserve">
+    <value>СПИСОК ЗАДАЧ</value>
+  </data>
+  <data name="&gt;&gt;grpTaskList.Name" xml:space="preserve">
+    <value>grpTaskList</value>
+  </data>
+  <data name="&gt;&gt;grpTaskList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpTaskList.Parent" xml:space="preserve">
+    <value>pnlMain</value>
+  </data>
+  <data name="&gt;&gt;grpTaskList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 0</value>
+  </data>
+  <data name="pnlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>9, 8, 9, 8</value>
+  </data>
+  <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>728, 566</value>
+  </data>
+  <data name="pnlMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Name" xml:space="preserve">
+    <value>pnlMain</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMain.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pnlLeft.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;pnlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="chkComplited.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1056,39 +1638,6 @@
   <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="grpTaskInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="grpTaskInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 413</value>
-  </data>
-  <data name="grpTaskInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="grpTaskInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="grpTaskInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>710, 145</value>
-  </data>
-  <data name="grpTaskInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grpTaskInfo.Text" xml:space="preserve">
-    <value>ИНФОРМАЦИЯ О ЗАДАЧЕ</value>
-  </data>
-  <data name="&gt;&gt;grpTaskInfo.Name" xml:space="preserve">
-    <value>grpTaskInfo</value>
-  </data>
-  <data name="&gt;&gt;grpTaskInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpTaskInfo.Parent" xml:space="preserve">
-    <value>pnlMain</value>
-  </data>
-  <data name="&gt;&gt;grpTaskInfo.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="btnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -1230,177 +1779,6 @@
   <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="flpButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="flpButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 351</value>
-  </data>
-  <data name="flpButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="flpButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 8, 9, 8</value>
-  </data>
-  <data name="flpButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 52</value>
-  </data>
-  <data name="flpButtons.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;flpButtons.Name" xml:space="preserve">
-    <value>flpButtons</value>
-  </data>
-  <data name="&gt;&gt;flpButtons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flpButtons.Parent" xml:space="preserve">
-    <value>grpTaskList</value>
-  </data>
-  <data name="&gt;&gt;flpButtons.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="colPriority.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colPriority.HeaderText" xml:space="preserve">
-    <value>Приоритет</value>
-  </data>
-  <data name="colPriority.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="colPriority.Width" type="System.Int32, mscorlib">
-    <value>90</value>
-  </data>
-  <metadata name="colTitle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colTitle.HeaderText" xml:space="preserve">
-    <value>Название</value>
-  </data>
-  <data name="colTitle.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="colTitle.Width" type="System.Int32, mscorlib">
-    <value>258</value>
-  </data>
-  <metadata name="colDueDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colDueDate.HeaderText" xml:space="preserve">
-    <value>Дата выполнения</value>
-  </data>
-  <data name="colDueDate.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="colDueDate.Width" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <metadata name="colStatus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="colStatus.HeaderText" xml:space="preserve">
-    <value>Статус</value>
-  </data>
-  <data name="colStatus.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="colStatus.Width" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="dgvTasks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dgvTasks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 18</value>
-  </data>
-  <data name="dgvTasks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="dgvTasks.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="dgvTasks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>704, 328</value>
-  </data>
-  <data name="dgvTasks.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;dgvTasks.Name" xml:space="preserve">
-    <value>dgvTasks</value>
-  </data>
-  <data name="&gt;&gt;dgvTasks.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dgvTasks.Parent" xml:space="preserve">
-    <value>grpTaskList</value>
-  </data>
-  <data name="&gt;&gt;dgvTasks.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="grpTaskList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="grpTaskList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 8</value>
-  </data>
-  <data name="grpTaskList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="grpTaskList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="grpTaskList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>710, 405</value>
-  </data>
-  <data name="grpTaskList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="grpTaskList.Text" xml:space="preserve">
-    <value>СПИСОК ЗАДАЧ</value>
-  </data>
-  <data name="&gt;&gt;grpTaskList.Name" xml:space="preserve">
-    <value>grpTaskList</value>
-  </data>
-  <data name="&gt;&gt;grpTaskList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpTaskList.Parent" xml:space="preserve">
-    <value>pnlMain</value>
-  </data>
-  <data name="&gt;&gt;grpTaskList.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 0</value>
-  </data>
-  <data name="pnlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="pnlMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>9, 8, 9, 8</value>
-  </data>
-  <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>728, 566</value>
-  </data>
-  <data name="pnlMain.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pnlMain.Name" xml:space="preserve">
-    <value>pnlMain</value>
-  </data>
-  <data name="&gt;&gt;pnlMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1432,6 +1810,12 @@
     <value>colTitle</value>
   </data>
   <data name="&gt;&gt;colTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colDescription.Name" xml:space="preserve">
+    <value>colDescription</value>
+  </data>
+  <data name="&gt;&gt;colDescription.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;colDueDate.Name" xml:space="preserve">
