@@ -130,10 +130,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblOverdue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
+    <value>5, 96</value>
   </data>
   <data name="lblOverdue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
+    <value>88, 15</value>
   </data>
   <data name="lblOverdue.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -160,10 +160,10 @@
     <value>NoControl</value>
   </data>
   <data name="lblNotDone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 96</value>
+    <value>5, 72</value>
   </data>
   <data name="lblNotDone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
+    <value>88, 15</value>
   </data>
   <data name="lblNotDone.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -190,10 +190,10 @@
     <value>NoControl</value>
   </data>
   <data name="lblDone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 62</value>
+    <value>5, 48</value>
   </data>
   <data name="lblDone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 20</value>
+    <value>74, 15</value>
   </data>
   <data name="lblDone.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -217,10 +217,10 @@
     <value>True</value>
   </data>
   <data name="lblTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 32</value>
+    <value>5, 24</value>
   </data>
   <data name="lblTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 20</value>
+    <value>74, 15</value>
   </data>
   <data name="lblTotal.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -244,10 +244,16 @@
     <value>Bottom</value>
   </data>
   <data name="grpStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 585</value>
+    <value>9, 429</value>
+  </data>
+  <data name="grpStats.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpStats.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="grpStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 159</value>
+    <value>201, 129</value>
   </data>
   <data name="grpStats.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -267,92 +273,215 @@
   <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnResetFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btnResetFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 460</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
   </data>
-  <data name="btnResetFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 40</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 1</value>
   </data>
-  <data name="btnResetFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="btnResetFilter.Text" xml:space="preserve">
-    <value>Сбросить фильтр</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
-  <data name="&gt;&gt;btnResetFilter.Name" xml:space="preserve">
-    <value>btnResetFilter</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnResetFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpFilters</value>
   </data>
-  <data name="&gt;&gt;btnResetFilter.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;btnResetFilter.ZOrder" xml:space="preserve">
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 130</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cmbDueDate.Items" xml:space="preserve">
-    <value>Все задачи</value>
+  <data name="labelPrioritet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="cmbDueDate.Items1" xml:space="preserve">
-    <value>Сегодня</value>
+  <data name="labelPrioritet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="cmbDueDate.Items2" xml:space="preserve">
-    <value>На этой неделе</value>
+  <data name="labelPrioritet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="cmbDueDate.Items3" xml:space="preserve">
-    <value>Просрочено</value>
+  <data name="labelPrioritet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 145</value>
   </data>
-  <data name="cmbDueDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 353</value>
+  <data name="labelPrioritet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
   </data>
-  <data name="cmbDueDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 28</value>
+  <data name="labelPrioritet.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="cmbDueDate.TabIndex" type="System.Int32, mscorlib">
+  <data name="labelPrioritet.Text" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Name" xml:space="preserve">
+    <value>labelPrioritet</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;cmbDueDate.Name" xml:space="preserve">
-    <value>cmbDueDate</value>
+  <data name="labelStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;cmbDueDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;cmbDueDate.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
+  <data name="labelStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;cmbDueDate.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="labelStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 20</value>
   </data>
-  <data name="btnApplyFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="labelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 17</value>
   </data>
-  <data name="btnApplyFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 414</value>
+  <data name="labelStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="btnApplyFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 40</value>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Статус</value>
   </data>
-  <data name="btnApplyFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
   </data>
-  <data name="btnApplyFilter.Text" xml:space="preserve">
-    <value>Применить фильтр</value>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnApplyFilter.Name" xml:space="preserve">
-    <value>btnApplyFilter</value>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>grpFilters</value>
   </data>
-  <data name="&gt;&gt;btnApplyFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnApplyFilter.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="chkMedium.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkMedium.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 193</value>
+  </data>
+  <data name="chkMedium.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="chkMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 19</value>
+  </data>
+  <data name="chkMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkMedium.Text" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Name" xml:space="preserve">
+    <value>chkMedium</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelDueDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDueDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelDueDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 269</value>
+  </data>
+  <data name="labelDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="labelDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelDueDate.Text" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Name" xml:space="preserve">
+    <value>labelDueDate</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkLow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkLow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 169</value>
+  </data>
+  <data name="chkLow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="chkLow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 19</value>
+  </data>
+  <data name="chkLow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkLow.Text" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Name" xml:space="preserve">
+    <value>chkLow</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkLow.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="chkHigh.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -361,10 +490,13 @@
     <value>NoControl</value>
   </data>
   <data name="chkHigh.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 254</value>
+    <value>11, 217</value>
+  </data>
+  <data name="chkHigh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="chkHigh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 24</value>
+    <value>52, 19</value>
   </data>
   <data name="chkHigh.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -379,10 +511,10 @@
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chkHigh.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
+    <value>grpFilters</value>
   </data>
   <data name="&gt;&gt;chkHigh.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="rbNotDone.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -391,10 +523,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbNotDone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 115</value>
+    <value>11, 92</value>
+  </data>
+  <data name="rbNotDone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="rbNotDone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 24</value>
+    <value>111, 19</value>
   </data>
   <data name="rbNotDone.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -412,16 +547,88 @@
     <value>grpFilters</value>
   </data>
   <data name="&gt;&gt;rbNotDone.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>8</value>
+  </data>
+  <data name="cmbDueDate.Items" xml:space="preserve">
+    <value>Все задачи</value>
+  </data>
+  <data name="cmbDueDate.Items1" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="cmbDueDate.Items2" xml:space="preserve">
+    <value>На этой неделе</value>
+  </data>
+  <data name="cmbDueDate.Items3" xml:space="preserve">
+    <value>Просрочено</value>
+  </data>
+  <data name="cmbDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 293</value>
+  </data>
+  <data name="cmbDueDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cmbDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 23</value>
+  </data>
+  <data name="cmbDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Name" xml:space="preserve">
+    <value>cmbDueDate</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnResetFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnResetFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 371</value>
+  </data>
+  <data name="btnResetFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnResetFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="btnResetFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnResetFilter.Text" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Name" xml:space="preserve">
+    <value>btnResetFilter</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="rbAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rbAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="rbAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 26</value>
+    <value>11, 44</value>
+  </data>
+  <data name="rbAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="rbAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 24</value>
+    <value>84, 19</value>
   </data>
   <data name="rbAll.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -439,7 +646,7 @@
     <value>grpFilters</value>
   </data>
   <data name="&gt;&gt;rbAll.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>11</value>
   </data>
   <data name="rbDone.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -448,10 +655,13 @@
     <value>NoControl</value>
   </data>
   <data name="rbDone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 66</value>
+    <value>11, 68</value>
+  </data>
+  <data name="rbDone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="rbDone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 24</value>
+    <value>104, 19</value>
   </data>
   <data name="rbDone.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -469,16 +679,52 @@
     <value>grpFilters</value>
   </data>
   <data name="&gt;&gt;rbDone.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnApplyFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnApplyFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 331</value>
+  </data>
+  <data name="btnApplyFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnApplyFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="btnApplyFilter.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="btnApplyFilter.Text" xml:space="preserve">
+    <value>Применить фильтр</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Name" xml:space="preserve">
+    <value>btnApplyFilter</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="grpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="grpFilters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
+    <value>9, 8</value>
+  </data>
+  <data name="grpFilters.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpFilters.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="grpFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 160</value>
+    <value>201, 417</value>
   </data>
   <data name="grpFilters.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -496,64 +742,7 @@
     <value>pnlLeft</value>
   </data>
   <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="chkMedium.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkMedium.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="chkMedium.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 224</value>
-  </data>
-  <data name="chkMedium.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 24</value>
-  </data>
-  <data name="chkMedium.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="chkMedium.Text" xml:space="preserve">
-    <value>Medium</value>
-  </data>
-  <data name="&gt;&gt;chkMedium.Name" xml:space="preserve">
-    <value>chkMedium</value>
-  </data>
-  <data name="&gt;&gt;chkMedium.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkMedium.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;chkMedium.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="chkLow.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkLow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 194</value>
-  </data>
-  <data name="chkLow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 24</value>
-  </data>
-  <data name="chkLow.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="chkLow.Text" xml:space="preserve">
-    <value>Low</value>
-  </data>
-  <data name="&gt;&gt;chkLow.Name" xml:space="preserve">
-    <value>chkLow</value>
-  </data>
-  <data name="&gt;&gt;chkLow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chkLow.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;chkLow.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>1</value>
   </data>
   <data name="pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -561,11 +750,14 @@
   <data name="pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="pnlLeft.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="pnlLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
+    <value>9, 8, 9, 8</value>
   </data>
   <data name="pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 754</value>
+    <value>219, 566</value>
   </data>
   <data name="pnlLeft.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -586,10 +778,13 @@
     <value>True</value>
   </data>
   <data name="chkComplited.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 139</value>
+    <value>491, 96</value>
+  </data>
+  <data name="chkComplited.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="chkComplited.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 24</value>
+    <value>90, 19</value>
   </data>
   <data name="chkComplited.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -619,10 +814,13 @@
     <value>High</value>
   </data>
   <data name="cmbPriority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 97</value>
+    <value>491, 65</value>
+  </data>
+  <data name="cmbPriority.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="cmbPriority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 28</value>
+    <value>202, 23</value>
   </data>
   <data name="cmbPriority.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -640,10 +838,13 @@
     <value>1</value>
   </data>
   <data name="dtpDueDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 53</value>
+    <value>491, 32</value>
+  </data>
+  <data name="dtpDueDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="dtpDueDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 27</value>
+    <value>202, 23</value>
   </data>
   <data name="dtpDueDate.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -664,7 +865,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 97</value>
+    <value>92, 65</value>
+  </data>
+  <data name="txtDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="txtDescription.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -673,7 +877,7 @@
     <value>Vertical</value>
   </data>
   <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 97</value>
+    <value>263, 68</value>
   </data>
   <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -694,10 +898,13 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 53</value>
+    <value>92, 32</value>
+  </data>
+  <data name="txtTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 27</value>
+    <value>263, 23</value>
   </data>
   <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -718,10 +925,10 @@
     <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 140</value>
+    <value>367, 97</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
+    <value>46, 15</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -745,10 +952,10 @@
     <value>True</value>
   </data>
   <data name="lblPriority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 97</value>
+    <value>367, 65</value>
   </data>
   <data name="lblPriority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 20</value>
+    <value>70, 15</value>
   </data>
   <data name="lblPriority.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -772,10 +979,10 @@
     <value>True</value>
   </data>
   <data name="lblDueDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 56</value>
+    <value>367, 34</value>
   </data>
   <data name="lblDueDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 20</value>
+    <value>107, 15</value>
   </data>
   <data name="lblDueDate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -799,10 +1006,10 @@
     <value>True</value>
   </data>
   <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 97</value>
+    <value>17, 65</value>
   </data>
   <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
+    <value>65, 15</value>
   </data>
   <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -826,10 +1033,10 @@
     <value>True</value>
   </data>
   <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 56</value>
+    <value>17, 34</value>
   </data>
   <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 20</value>
+    <value>62, 15</value>
   </data>
   <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -853,10 +1060,16 @@
     <value>Fill</value>
   </data>
   <data name="grpTaskInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 550</value>
+    <value>9, 413</value>
+  </data>
+  <data name="grpTaskInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskInfo.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="grpTaskInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 194</value>
+    <value>710, 145</value>
   </data>
   <data name="grpTaskInfo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -877,13 +1090,19 @@
     <value>0</value>
   </data>
   <data name="btnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 13</value>
+    <value>12, 10</value>
+  </data>
+  <data name="btnAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 40</value>
+    <value>175, 30</value>
   </data>
   <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -904,13 +1123,19 @@
     <value>0</value>
   </data>
   <data name="btnEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
+  </data>
+  <data name="btnEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 13</value>
+    <value>193, 10</value>
+  </data>
+  <data name="btnEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 40</value>
+    <value>175, 30</value>
   </data>
   <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -931,13 +1156,19 @@
     <value>1</value>
   </data>
   <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+    <value>Popup</value>
+  </data>
+  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 13</value>
+    <value>374, 10</value>
+  </data>
+  <data name="btnDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 40</value>
+    <value>175, 30</value>
   </data>
   <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -961,13 +1192,16 @@
     <value>Bottom</value>
   </data>
   <data name="flpButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 467</value>
+    <value>3, 351</value>
+  </data>
+  <data name="flpButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="flpButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
+    <value>9, 8, 9, 8</value>
   </data>
   <data name="flpButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>806, 70</value>
+    <value>704, 52</value>
   </data>
   <data name="flpButtons.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -993,6 +1227,9 @@
   <data name="colPriority.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="colPriority.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
   <metadata name="colTitle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1001,6 +1238,9 @@
   </data>
   <data name="colTitle.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="colTitle.Width" type="System.Int32, mscorlib">
+    <value>258</value>
   </data>
   <metadata name="colDueDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1011,6 +1251,9 @@
   <data name="colDueDate.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="colDueDate.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
   <metadata name="colStatus.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1020,17 +1263,23 @@
   <data name="colStatus.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="colStatus.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
   <data name="dgvTasks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="dgvTasks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 23</value>
+    <value>3, 18</value>
+  </data>
+  <data name="dgvTasks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="dgvTasks.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
   <data name="dgvTasks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>806, 438</value>
+    <value>704, 328</value>
   </data>
   <data name="dgvTasks.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1051,10 +1300,16 @@
     <value>Top</value>
   </data>
   <data name="grpTaskList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
+    <value>9, 8</value>
+  </data>
+  <data name="grpTaskList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="grpTaskList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="grpTaskList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 540</value>
+    <value>710, 405</value>
   </data>
   <data name="grpTaskList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1078,13 +1333,16 @@
     <value>Fill</value>
   </data>
   <data name="pnlMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 0</value>
+    <value>219, 0</value>
+  </data>
+  <data name="pnlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="pnlMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
+    <value>9, 8, 9, 8</value>
   </data>
   <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>832, 754</value>
+    <value>728, 566</value>
   </data>
   <data name="pnlMain.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1105,19 +1363,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 20</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1082, 754</value>
+    <value>947, 566</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>900, 738</value>
+    <value>790, 563</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
