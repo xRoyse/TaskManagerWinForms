@@ -13,6 +13,8 @@ namespace TaskManager
 {
     public partial class MainForm : Form
     {
+        private int _editingRowIndex = -1;
+
         public MainForm()
         {
             InitializeComponent();
@@ -24,13 +26,14 @@ namespace TaskManager
 
         private void UpdateStats()
         {
-            int total = dgvTasks.Rows.Count;
+            int total = 0;
             int done = 0;
             int notDone = 0;
             int overdue = 0;
 
             foreach (DataGridViewRow row in dgvTasks.Rows)
             {
+                total++;
                 string status = row.Cells["colStatus"].Value?.ToString() ?? "";
                 string dueDateStr = row.Cells["colDueDate"].Value?.ToString() ?? "";
 
@@ -52,7 +55,7 @@ namespace TaskManager
             lblOverdue.Text = "Просрочено: " + overdue;
         }
 
-        // ─── Добавить ─────────────────────────────────────────────────
+        // ─── Добавить / Сохранить ─────────────────────────────────────
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -69,15 +72,74 @@ namespace TaskManager
             string dueDate = dtpDueDate.Value.ToShortDateString();
             string status = chkComplited.Checked ? "Выполнено" : "Не выполнено";
 
-            dgvTasks.Rows.Add(priority, title, description, dueDate, status);
+            if (_editingRowIndex >= 0)
+            {
+                DataGridViewRow row = dgvTasks.Rows[_editingRowIndex];
+                row.Cells["colPriority"].Value = priority;
+                row.Cells["colTitle"].Value = title;
+                row.Cells["colDescription"].Value = description;
+                row.Cells["colDueDate"].Value = dueDate;
+                row.Cells["colStatus"].Value = status;
 
-            txtTitle.Clear();
-            txtDescription.Clear();
-            dtpDueDate.Value = DateTime.Now;
-            cmbPriority.SelectedIndex = -1;
-            chkComplited.Checked = false;
+                _editingRowIndex = -1;
+                btnAdd.Text = "Добавить";
+                btnEdit.Enabled = true;
+                btnDelete.Enabled = true;
+            }
+            else
+            {
+                dgvTasks.Rows.Add(priority, title, description, dueDate, status);
+            }
 
+            ClearForm();
             UpdateStats();
+        }
+
+        // ─── Редактировать ────────────────────────────────────────────
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvTasks.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Выберите задачу для редактирования.", "Редактирование",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            if (dgvTasks.SelectedRows.Count > 1)
+            {
+                MessageBox.Show("Выберите только одну задачу для редактирования.", "Редактирование",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            DataGridViewRow selected = dgvTasks.SelectedRows[0];
+            _editingRowIndex = selected.Index;
+
+            string priority = selected.Cells["colPriority"].Value?.ToString() ?? "";
+            txtTitle.Text = selected.Cells["colTitle"].Value?.ToString() ?? "";
+            txtDescription.Text = selected.Cells["colDescription"].Value?.ToString() ?? "";
+            chkComplited.Checked = (selected.Cells["colStatus"].Value?.ToString() == "Выполнено");
+
+            string dueDateStr = selected.Cells["colDueDate"].Value?.ToString() ?? "";
+            DateTime due;
+            if (DateTime.TryParse(dueDateStr, out due))
+                dtpDueDate.Value = due;
+
+            cmbPriority.SelectedIndex = -1;
+            for (int i = 0; i < cmbPriority.Items.Count; i++)
+            {
+                if (cmbPriority.Items[i].ToString() == priority)
+                {
+                    cmbPriority.SelectedIndex = i;
+                    break;
+                }
+            }
+
+            btnAdd.Text = "Сохранить";
+            btnEdit.Enabled = false;
+            btnDelete.Enabled = false;
+            txtTitle.Focus();
         }
 
         // ─── Удалить выбранные ────────────────────────────────────────
@@ -104,6 +166,107 @@ namespace TaskManager
             }
 
             UpdateStats();
+        }
+
+        // ─── Фильтры ──────────────────────────────────────────────────
+
+        private void btnApplyFilter_Click(object sender, EventArgs e)
+        {
+            ApplyFilters();
+        }
+
+        private void btnResetFilter_Click(object sender, EventArgs e)
+        {
+            // Сброс статуса
+            rbAll.Checked = true;
+
+            // Сброс приоритетов
+            chkHigh.Checked = true;
+            chkMedium.Checked = true;
+            chkLow.Checked = true;
+
+            // Сброс срока
+            cmbDueDate.SelectedIndex = 0;
+
+            // Показываем все строки
+            foreach (DataGridViewRow row in dgvTasks.Rows)
+                row.Visible = true;
+        }
+
+        private void ApplyFilters()
+        {
+            foreach (DataGridViewRow row in dgvTasks.Rows)
+            {
+                string status = row.Cells["colStatus"].Value?.ToString() ?? "";
+                string priority = row.Cells["colPriority"].Value?.ToString() ?? "";
+                string dueDateStr = row.Cells["colDueDate"].Value?.ToString() ?? "";
+
+                bool show = true;
+
+                // ── Фильтр по статусу ──
+                if (rbDone.Checked && status != "Выполнено")
+                    show = false;
+                else if (rbNotDone.Checked && status != "Не выполнено")
+                    show = false;
+
+                // ── Фильтр по приоритету ──
+                if (show)
+                {
+                    bool priorityMatch =
+                        (priority == "High" && chkHigh.Checked) ||
+                        (priority == "Medium" && chkMedium.Checked) ||
+                        (priority == "Low" && chkLow.Checked) ||
+                        (priority == "");
+
+                    if (!priorityMatch)
+                        show = false;
+                }
+
+                // ── Фильтр по сроку ──
+                if (show && cmbDueDate.SelectedIndex > 0)
+                {
+                    DateTime due;
+                    bool parsed = DateTime.TryParse(dueDateStr, out due);
+
+                    switch (cmbDueDate.SelectedIndex)
+                    {
+                        case 1: // Сегодня
+                            if (!parsed || due.Date != DateTime.Today)
+                                show = false;
+                            break;
+                        case 2: // На этой неделе
+                            if (!parsed)
+                            {
+                                show = false;
+                            }
+                            else
+                            {
+                                DateTime weekStart = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + 1);
+                                DateTime weekEnd = weekStart.AddDays(6);
+                                if (due.Date < weekStart || due.Date > weekEnd)
+                                    show = false;
+                            }
+                            break;
+                        case 3: // Просрочено
+                            if (!parsed || due.Date >= DateTime.Today || status == "Выполнено")
+                                show = false;
+                            break;
+                    }
+                }
+
+                row.Visible = show;
+            }
+        }
+
+        // ─── Очистка формы ────────────────────────────────────────────
+
+        private void ClearForm()
+        {
+            txtTitle.Clear();
+            txtDescription.Clear();
+            dtpDueDate.Value = DateTime.Now;
+            cmbPriority.SelectedIndex = -1;
+            chkComplited.Checked = false;
         }
 
         // ─── Бейджи приоритета (CellPainting) ────────────────────────
@@ -212,8 +375,6 @@ namespace TaskManager
 
         private void groupBox2_Enter(object sender, EventArgs e) { }
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e) { }
-        private void btnResetFilter_Click(object sender, EventArgs e) { }
-        private void btnApplyFilter_Click(object sender, EventArgs e) { }
         private void label1_Click(object sender, EventArgs e) { }
         private void dgvTasks_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
         private void label3_Click(object sender, EventArgs e) { }
