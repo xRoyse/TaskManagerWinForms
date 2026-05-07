@@ -72,6 +72,8 @@
             this.labelPrioritet = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.pnlLeft.SuspendLayout();
             this.grpStats.SuspendLayout();
             this.grpFilters.SuspendLayout();
@@ -310,7 +312,9 @@
             // flpButtons
             // 
             this.flpButtons.Controls.Add(this.btnAdd);
+            this.flpButtons.Controls.Add(this.panel1);
             this.flpButtons.Controls.Add(this.btnEdit);
+            this.flpButtons.Controls.Add(this.panel2);
             this.flpButtons.Controls.Add(this.btnDelete);
             resources.ApplyResources(this.flpButtons, "flpButtons");
             this.flpButtons.Name = "flpButtons";
@@ -445,6 +449,16 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // panel2
+            // 
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -514,6 +528,8 @@
         private System.Windows.Forms.Label labelPrioritet;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
