@@ -43,8 +43,7 @@ namespace TaskManager
                     notDone++;
 
                 DateTime due;
-                if (status == "Не выполнено"
-                    && DateTime.TryParse(dueDateStr, out due)
+                if (DateTime.TryParse(dueDateStr, out due)
                     && due.Date < DateTime.Today)
                     overdue++;
             }
@@ -248,7 +247,7 @@ namespace TaskManager
                             }
                             break;
                         case 3: // Просрочено
-                            if (!parsed || due.Date >= DateTime.Today || status == "Выполнено")
+                            if (!parsed || due.Date >= DateTime.Today)
                                 show = false;
                             break;
                     }
