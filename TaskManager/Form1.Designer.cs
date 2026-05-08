@@ -303,6 +303,7 @@
             // 
             // cmbPriority
             // 
+            resources.ApplyResources(this.cmbPriority, "cmbPriority");
             this.cmbPriority.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cmbPriority.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPriority.FormattingEnabled = true;
@@ -310,14 +311,13 @@
             resources.GetString("cmbPriority.Items"),
             resources.GetString("cmbPriority.Items1"),
             resources.GetString("cmbPriority.Items2")});
-            resources.ApplyResources(this.cmbPriority, "cmbPriority");
             this.cmbPriority.Name = "cmbPriority";
             // 
             // dtpDueDate
             // 
+            resources.ApplyResources(this.dtpDueDate, "dtpDueDate");
             this.dtpDueDate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dtpDueDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            resources.ApplyResources(this.dtpDueDate, "dtpDueDate");
             this.dtpDueDate.Name = "dtpDueDate";
             // 
             // txtDescription
@@ -363,17 +363,18 @@
             this.grpTaskList.Controls.Add(this.flpButtons);
             this.grpTaskList.Controls.Add(this.dgvTasks);
             resources.ApplyResources(this.grpTaskList, "grpTaskList");
+            this.grpTaskList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.grpTaskList.Name = "grpTaskList";
             this.grpTaskList.TabStop = false;
             // 
             // flpButtons
             // 
+            resources.ApplyResources(this.flpButtons, "flpButtons");
             this.flpButtons.Controls.Add(this.btnAdd);
             this.flpButtons.Controls.Add(this.panel1);
             this.flpButtons.Controls.Add(this.btnEdit);
             this.flpButtons.Controls.Add(this.panel2);
             this.flpButtons.Controls.Add(this.btnDelete);
-            resources.ApplyResources(this.flpButtons, "flpButtons");
             this.flpButtons.Name = "flpButtons";
             // 
             // btnAdd
@@ -418,6 +419,7 @@
             // 
             this.dgvTasks.AllowUserToAddRows = false;
             this.dgvTasks.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dgvTasks, "dgvTasks");
             this.dgvTasks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvTasks.BackgroundColor = System.Drawing.Color.White;
             this.dgvTasks.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -429,7 +431,6 @@
             this.colDescription,
             this.colDueDate,
             this.colStatus});
-            resources.ApplyResources(this.dgvTasks, "dgvTasks");
             this.dgvTasks.Name = "dgvTasks";
             this.dgvTasks.ReadOnly = true;
             this.dgvTasks.RowHeadersVisible = false;
@@ -447,14 +448,14 @@
             // 
             // colTitle
             // 
-            this.colTitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colTitle.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             resources.ApplyResources(this.colTitle, "colTitle");
             this.colTitle.Name = "colTitle";
             this.colTitle.ReadOnly = true;
             // 
             // colDescription
             // 
-            this.colDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colDescription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             resources.ApplyResources(this.colDescription, "colDescription");
             this.colDescription.Name = "colDescription";
             this.colDescription.ReadOnly = true;
@@ -491,7 +492,9 @@
             this.grpTaskInfo.ResumeLayout(false);
             this.grpTaskInfo.PerformLayout();
             this.grpTaskList.ResumeLayout(false);
+            this.grpTaskList.PerformLayout();
             this.flpButtons.ResumeLayout(false);
+            this.flpButtons.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTasks)).EndInit();
             this.ResumeLayout(false);
 

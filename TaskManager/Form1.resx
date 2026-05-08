@@ -117,18 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;grpStats.Name" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 11, 10, 11</value>
+  </data>
+  <data name="pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 755</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pnlLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Name" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="grpStats.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblOverdue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblOverdue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblOverdue.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 128</value>
   </data>
@@ -266,6 +317,201 @@
   </data>
   <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Name" xml:space="preserve">
+    <value>labelPrioritet</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelPrioritet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Name" xml:space="preserve">
+    <value>labelStatus</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Name" xml:space="preserve">
+    <value>chkMedium</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkMedium.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Name" xml:space="preserve">
+    <value>labelDueDate</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;labelDueDate.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Name" xml:space="preserve">
+    <value>chkLow</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLow.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkLow.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Name" xml:space="preserve">
+    <value>chkHigh</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;chkHigh.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Name" xml:space="preserve">
+    <value>rbNotDone</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbNotDone.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Name" xml:space="preserve">
+    <value>cmbDueDate</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;cmbDueDate.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Name" xml:space="preserve">
+    <value>btnResetFilter</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnResetFilter.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Name" xml:space="preserve">
+    <value>rbAll</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbAll.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbAll.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Name" xml:space="preserve">
+    <value>rbDone</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbDone.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;rbDone.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Name" xml:space="preserve">
+    <value>btnApplyFilter</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.Parent" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="grpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="grpFilters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 11</value>
+  </data>
+  <data name="grpFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 556</value>
+  </data>
+  <data name="grpFilters.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grpFilters.Text" xml:space="preserve">
+    <value>ФИЛЬТРЫ</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
+    <value>grpFilters</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
+    <value>pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -678,75 +924,6 @@
   <data name="&gt;&gt;btnApplyFilter.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="grpFilters.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="grpFilters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 11</value>
-  </data>
-  <data name="grpFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 556</value>
-  </data>
-  <data name="grpFilters.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grpFilters.Text" xml:space="preserve">
-    <value>ФИЛЬТРЫ</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Name" xml:space="preserve">
-    <value>grpFilters</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.Parent" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;grpFilters.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlLeft.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 11, 10, 11</value>
-  </data>
-  <data name="pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 755</value>
-  </data>
-  <data name="pnlLeft.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pnlLeft.Name" xml:space="preserve">
-    <value>pnlLeft</value>
-  </data>
-  <data name="&gt;&gt;pnlLeft.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlLeft.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlLeft.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="chkComplited.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkComplited.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 128</value>
-  </data>
-  <data name="chkComplited.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 24</value>
-  </data>
-  <data name="chkComplited.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="chkComplited.Text" xml:space="preserve">
-    <value>Выполнено</value>
-  </data>
   <data name="&gt;&gt;chkComplited.Name" xml:space="preserve">
     <value>chkComplited</value>
   </data>
@@ -758,24 +935,6 @@
   </data>
   <data name="&gt;&gt;chkComplited.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="cmbPriority.Items" xml:space="preserve">
-    <value>Low</value>
-  </data>
-  <data name="cmbPriority.Items1" xml:space="preserve">
-    <value>Medium</value>
-  </data>
-  <data name="cmbPriority.Items2" xml:space="preserve">
-    <value>High</value>
-  </data>
-  <data name="cmbPriority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 87</value>
-  </data>
-  <data name="cmbPriority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 28</value>
-  </data>
-  <data name="cmbPriority.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;cmbPriority.Name" xml:space="preserve">
     <value>cmbPriority</value>
@@ -789,15 +948,6 @@
   <data name="&gt;&gt;cmbPriority.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="dtpDueDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 43</value>
-  </data>
-  <data name="dtpDueDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 27</value>
-  </data>
-  <data name="dtpDueDate.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
   <data name="&gt;&gt;dtpDueDate.Name" xml:space="preserve">
     <value>dtpDueDate</value>
   </data>
@@ -809,24 +959,6 @@
   </data>
   <data name="&gt;&gt;dtpDueDate.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="txtDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 87</value>
-  </data>
-  <data name="txtDescription.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 89</value>
-  </data>
-  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
   </data>
   <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
     <value>txtDescription</value>
@@ -840,18 +972,6 @@
   <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="txtTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 43</value>
-  </data>
-  <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 27</value>
-  </data>
-  <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
     <value>txtTitle</value>
   </data>
@@ -863,21 +983,6 @@
   </data>
   <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 129</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Статус:</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -891,21 +996,6 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lblPriority.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblPriority.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 87</value>
-  </data>
-  <data name="lblPriority.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 20</value>
-  </data>
-  <data name="lblPriority.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblPriority.Text" xml:space="preserve">
-    <value>Приоритет:</value>
-  </data>
   <data name="&gt;&gt;lblPriority.Name" xml:space="preserve">
     <value>lblPriority</value>
   </data>
@@ -917,21 +1007,6 @@
   </data>
   <data name="&gt;&gt;lblPriority.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="lblDueDate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblDueDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 45</value>
-  </data>
-  <data name="lblDueDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 20</value>
-  </data>
-  <data name="lblDueDate.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lblDueDate.Text" xml:space="preserve">
-    <value>Дата выполнения:</value>
   </data>
   <data name="&gt;&gt;lblDueDate.Name" xml:space="preserve">
     <value>lblDueDate</value>
@@ -945,21 +1020,6 @@
   <data name="&gt;&gt;lblDueDate.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="lblDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 87</value>
-  </data>
-  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
-  </data>
-  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lblDescription.Text" xml:space="preserve">
-    <value>Описание:</value>
-  </data>
   <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
     <value>lblDescription</value>
   </data>
@@ -971,21 +1031,6 @@
   </data>
   <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 45</value>
-  </data>
-  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 20</value>
-  </data>
-  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblTitle.Text" xml:space="preserve">
-    <value>Название:</value>
   </data>
   <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
     <value>lblTitle</value>
@@ -1000,13 +1045,13 @@
     <value>9</value>
   </data>
   <data name="grpTaskInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+    <value>Bottom</value>
   </data>
   <data name="grpTaskInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 551</value>
+    <value>10, 557</value>
   </data>
   <data name="grpTaskInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 193</value>
+    <value>812, 187</value>
   </data>
   <data name="grpTaskInfo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1025,6 +1070,12 @@
   </data>
   <data name="&gt;&gt;grpTaskInfo.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="flpButtons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="flpButtons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -1056,14 +1107,26 @@
   <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>219, 15</value>
   </data>
   <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
+  <data name="panel1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 51</value>
+    <value>75, 38</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1087,7 +1150,7 @@
     <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>299, 14</value>
+    <value>300, 14</value>
   </data>
   <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 40</value>
@@ -1110,14 +1173,26 @@
   <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="panel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel2.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>505, 15</value>
+    <value>506, 15</value>
   </data>
   <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
+  <data name="panel2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 51</value>
+    <value>75, 38</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1141,7 +1216,7 @@
     <value>Segoe UI Semibold, 9pt, style=Bold</value>
   </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
-    <value>586, 14</value>
+    <value>587, 14</value>
   </data>
   <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 40</value>
@@ -1164,17 +1239,14 @@
   <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="flpButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
   <data name="flpButtons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 468</value>
+    <value>3, 474</value>
   </data>
   <data name="flpButtons.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 11, 10, 11</value>
   </data>
   <data name="flpButtons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>806, 69</value>
+    <value>806, 68</value>
   </data>
   <data name="flpButtons.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1190,6 +1262,9 @@
   </data>
   <data name="&gt;&gt;flpButtons.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="dgvTasks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <metadata name="colPriority.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1212,17 +1287,11 @@
   <data name="colTitle.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="colTitle.Width" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
   <data name="colDescription.HeaderText" xml:space="preserve">
     <value>Описание</value>
   </data>
   <data name="colDescription.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="colDescription.Width" type="System.Int32, mscorlib">
-    <value>215</value>
   </data>
   <metadata name="colDueDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1248,9 +1317,6 @@
   <data name="colStatus.Width" type="System.Int32, mscorlib">
     <value>125</value>
   </data>
-  <data name="dgvTasks.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
   <data name="dgvTasks.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 23</value>
   </data>
@@ -1258,7 +1324,7 @@
     <value>51</value>
   </data>
   <data name="dgvTasks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>806, 437</value>
+    <value>806, 445</value>
   </data>
   <data name="dgvTasks.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1282,7 +1348,7 @@
     <value>10, 11</value>
   </data>
   <data name="grpTaskList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 540</value>
+    <value>812, 545</value>
   </data>
   <data name="grpTaskList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1329,6 +1395,297 @@
   <data name="&gt;&gt;pnlMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="chkComplited.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="chkComplited.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkComplited.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 128</value>
+  </data>
+  <data name="chkComplited.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="chkComplited.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="chkComplited.Text" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="&gt;&gt;chkComplited.Name" xml:space="preserve">
+    <value>chkComplited</value>
+  </data>
+  <data name="&gt;&gt;chkComplited.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkComplited.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;chkComplited.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbPriority.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="cmbPriority.Items" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="cmbPriority.Items1" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="cmbPriority.Items2" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="cmbPriority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 87</value>
+  </data>
+  <data name="cmbPriority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 28</value>
+  </data>
+  <data name="cmbPriority.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.Name" xml:space="preserve">
+    <value>cmbPriority</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;cmbPriority.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpDueDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="dtpDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>561, 43</value>
+  </data>
+  <data name="dtpDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 27</value>
+  </data>
+  <data name="dtpDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Name" xml:space="preserve">
+    <value>dtpDueDate</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;dtpDueDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 87</value>
+  </data>
+  <data name="txtDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 89</value>
+  </data>
+  <data name="txtDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Name" xml:space="preserve">
+    <value>txtDescription</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;txtDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="txtTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 43</value>
+  </data>
+  <data name="txtTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 27</value>
+  </data>
+  <data name="txtTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Name" xml:space="preserve">
+    <value>txtTitle</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;txtTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 129</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Статус:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblPriority.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblPriority.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPriority.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 87</value>
+  </data>
+  <data name="lblPriority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="lblPriority.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>Приоритет:</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Name" xml:space="preserve">
+    <value>lblPriority</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblPriority.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDueDate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lblDueDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDueDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 45</value>
+  </data>
+  <data name="lblDueDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
+  </data>
+  <data name="lblDueDate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDueDate.Text" xml:space="preserve">
+    <value>Дата выполнения:</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Name" xml:space="preserve">
+    <value>lblDueDate</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblDueDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 87</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="lblDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Описание:</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Name" xml:space="preserve">
+    <value>lblDescription</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblDescription.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTitle.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 45</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Название:</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>grpTaskInfo</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1341,14 +1698,11 @@
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>900, 735</value>
+    <value>1100, 802</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
