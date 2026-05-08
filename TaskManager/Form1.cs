@@ -11,10 +11,19 @@ using System.Windows.Forms;
 
 namespace TaskManager
 {
+    /// <summary>
+    /// Главная форма приложения.
+    /// </summary>
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// Индекс редактируемой строки, -1 если не редактируем.
+        /// </summary>
         private int _editingRowIndex = -1;
 
+        /// <summary>
+        /// Инициализация формы, подписка на событие отрисовки ячеек.
+        /// </summary>
         public MainForm()
         {
             InitializeComponent();
@@ -24,6 +33,9 @@ namespace TaskManager
 
         // ─── Статистика ───────────────────────────────────────────────
 
+        /// <summary>
+        /// Пересчитывает и выводит статистику по задачам.
+        /// </summary>
         private void UpdateStats()
         {
             int total = 0;
@@ -56,6 +68,11 @@ namespace TaskManager
 
         // ─── Добавить / Сохранить ─────────────────────────────────────
 
+        /// <summary>
+        /// Добавляет новую задачу или сохраняет изменения при редактировании.
+        /// </summary>
+        /// <param name="sender">Кнопка добавления/сохранения.</param>
+        /// <param name="e">Аргументы события.</param>
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtTitle.Text))
@@ -96,6 +113,11 @@ namespace TaskManager
 
         // ─── Редактировать ────────────────────────────────────────────
 
+        /// <summary>
+        /// Загружает выбранную задачу в поля формы для редактирования.
+        /// </summary>
+        /// <param name="sender">Кнопка редактирования.</param>
+        /// <param name="e">Аргументы события.</param>
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (dgvTasks.SelectedRows.Count == 0)
@@ -143,6 +165,11 @@ namespace TaskManager
 
         // ─── Удалить выбранные ────────────────────────────────────────
 
+        /// <summary>
+        /// Удаляет выбранные задачи после подтверждения.
+        /// </summary>
+        /// <param name="sender">Кнопка удаления.</param>
+        /// <param name="e">Аргументы события.</param>
         private void btnDelete_Click(object sender, EventArgs e)
         {
             if (dgvTasks.SelectedRows.Count == 0)
@@ -169,11 +196,21 @@ namespace TaskManager
 
         // ─── Фильтры ──────────────────────────────────────────────────
 
+        /// <summary>
+        /// Применяет фильтры к списку задач.
+        /// </summary>
+        /// <param name="sender">Кнопка применения фильтра.</param>
+        /// <param name="e">Аргументы события.</param>
         private void btnApplyFilter_Click(object sender, EventArgs e)
         {
             ApplyFilters();
         }
 
+        /// <summary>
+        /// Сбрасывает все фильтры и показывает все задачи.
+        /// </summary>
+        /// <param name="sender">Кнопка сброса фильтра.</param>
+        /// <param name="e">Аргументы события.</param>
         private void btnResetFilter_Click(object sender, EventArgs e)
         {
             // Сброс статуса
@@ -192,6 +229,9 @@ namespace TaskManager
                 row.Visible = true;
         }
 
+        /// <summary>
+        /// Фильтрует строки таблицы по статусу, приоритету и сроку.
+        /// </summary>
         private void ApplyFilters()
         {
             foreach (DataGridViewRow row in dgvTasks.Rows)
@@ -259,6 +299,9 @@ namespace TaskManager
 
         // ─── Очистка формы ────────────────────────────────────────────
 
+        /// <summary>
+        /// Очищает все поля ввода.
+        /// </summary>
         private void ClearForm()
         {
             txtTitle.Clear();
@@ -270,6 +313,11 @@ namespace TaskManager
 
         // ─── Бейджи приоритета (CellPainting) ────────────────────────
 
+        /// <summary>
+        /// Рисует цветной бейдж в ячейке приоритета вместо обычного текста.
+        /// </summary>
+        /// <param name="sender">Таблица задач.</param>
+        /// <param name="e">Данные для отрисовки ячейки.</param>
         private void dgvTasks_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
             if (e.RowIndex < 0 || e.ColumnIndex < 0) return;
@@ -319,6 +367,12 @@ namespace TaskManager
             e.Handled = true;
         }
 
+        /// <summary>
+        /// Строит путь прямоугольника с закруглёнными углами.
+        /// </summary>
+        /// <param name="bounds">Прямоугольник.</param>
+        /// <param name="radius">Радиус скругления.</param>
+        /// <returns>Готовый GraphicsPath.</returns>
         private GraphicsPath RoundedRect(Rectangle bounds, int radius)
         {
             int d = radius * 2;
@@ -333,6 +387,11 @@ namespace TaskManager
 
         // ─── Окраска ячеек ────────────────────────────────────────────
 
+        /// <summary>
+        /// Красит текст в колонках статуса и срока в зависимости от значения.
+        /// </summary>
+        /// <param name="sender">Таблица задач.</param>
+        /// <param name="e">Данные форматирования ячейки.</param>
         private void dgvTasks_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             if (e.RowIndex < 0) return;
@@ -381,3 +440,4 @@ namespace TaskManager
         private void label1_Click_1(object sender, EventArgs e) { }
     }
 }
+
