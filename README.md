@@ -3,7 +3,7 @@
 Оконное  приложение Windows Form для управления личными задачами, созданное с использованием Windows Forms и .NET 6/8.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xRoyse/TaskManagerWinForms/d2f0176b7637ec7f1651ce4711d37dbaf24368c3/main-window.png.jpg" alt="Main" >
+  <img width="947" height="601" alt="main-window png" src="https://github.com/user-attachments/assets/621bbf77-f76f-4116-9031-7c5091847845" />
 </p>
 
 ---
